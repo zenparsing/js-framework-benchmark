@@ -1,0 +1,25 @@
+{
+  "name": "js-framework-benchmark-straylight",
+  "version": "1.1.1",
+  "description": "Straylight demo",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack -w -d",
+    "build-prod": "webpack -p"
+  },
+  "author": "Stefan Krause",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/krausest/js-framework-benchmark",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/krausest/js-framework-benchmark.git"
+  },
+  "devDependencies": {
+    "babel-core": "6.24.1",
+    "babel-loader": "7.0.0",
+    "babel-preset-es2015": "6.24.1",
+    "storelax": "^0.2.4",
+    "straylight": "^0.3.4",
+    "webpack": "2.5.1"
+  }
+}
